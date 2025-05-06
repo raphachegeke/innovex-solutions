@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6faf7;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .faq-container {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    details {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      cursor: pointer;
+    }
+
+    summary {
+      font-size: 1rem;
+      font-weight: bold;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: '+';
+      float: right;
+      font-size: 1.2rem;
+    }
+
+    details[open] summary::after {
+      content: '-';
+    }
+
+    .faq-content {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="faq-container">
+    <details>
+      <summary>How do I book a therapy session?</summary>
+      <div class="faq-content">You can book a session through our online portal or contact support for assistance.</div>
+    </details>
+    <details>
+      <summary>Are online sessions available?</summary>
+      <div class="faq-content">Yes, we offer online video and chat sessions for convenience.</div>
+    </details>
+    <details>
+      <summary>What’s the difference between therapy and coaching?</summary>
+      <div class="faq-content">Therapy focuses on mental health and emotional healing, while coaching is goal-oriented and future-focused.</div>
+    </details>
+    <details>
+      <summary>Do I need a subscription to access services?</summary>
+      <div class="faq-content">Some services require a subscription, while others are pay-as-you-go.</div>
+    </details>
+    <details>
+      <summary>Can I switch therapists if I don’t feel the right connection?</summary>
+      <div class="faq-content">Yes, you're free to switch therapists to find the right fit.</div>
+    </details>
+    <details>
+      <summary>Is my information and session history kept confidential?</summary>
+      <div class="faq-content">Absolutely. We follow strict confidentiality policies to protect your data.</div>
+    </details>
+  </div>
+
+</body>
+</html>
