@@ -180,3 +180,94 @@ nav{
   margin-left: 70px;
 }
 
+.arrows {
+  font-size: 20px;
+  display: flex;
+}
+
+.card6 {
+  width: 90%;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+
+  display: flex;
+  
+}
+
+.card6a {
+  width: 40%;
+  text-align: left;
+}
+
+.card6b {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.test {
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.test1 {
+  background-color: blanchedalmond;
+}
+
+.test2 {
+  color: white;
+  background-color: darkblue;
+}
+
+.card7 {
+  width: 90%;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.partnerspic {
+  width: 80%;
+}
+
+.card8 {
+  margin-top: 100px;
+}
+
+.card9 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card9 div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.card9 a{
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.card9a a{
+  background-color: orange;
+}
+.card9b a{
+  background-color: green;
+}
+.card9c a{
+  background-color: palevioletred;
+}
